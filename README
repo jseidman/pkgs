@@ -1,0 +1,4 @@
+RPM's, etc. for various packages.
+
+pkgs/rpms contains RPM's
+pkgs/src contains files to create the packages, e.g. spec files, etc.
