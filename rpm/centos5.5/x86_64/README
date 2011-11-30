@@ -1,15 +1,21 @@
 RPM's and dependencies to install the following packages:
 
 RHIPE - The R and Hadoop Integrated Programming Environment - RHIPE provides
- an interface to running Hadoop MapReduce from the R environment. 
+an interface to running Hadoop MapReduce from the R environment. 
 
-Installing RHIPE requires installing R and Google Protobuffers. R RPM's can be found in public RPM repositories. Google protobuf RPM's are a little harder to find, so this directory contains an RPM for installing the latest protobuf version. Note that RHIPE and it's dependencies need to be installed on all nodes of the Hadoop cluster. 
+Installing RHIPE requires installing R and Google Protobuffers. R RPM's can be
+found in public RPM repositories. Google protobuf RPM's are a little harder to
+find, so this directory contains an RPM for installing the latest protobuf 
+version. Note that RHIPE and it's dependencies need to be installed on all
+nodes of the Hadoop cluster. 
 
-rmr - Like RHIPE, rmr provides an interface to running Hadoop MapReduce jobs from R. Installing rmr requires installation of the following dependencies:
+rmr - Like RHIPE, rmr provides an interface to running Hadoop MapReduce jobs
+from R. Installing rmr requires installation of the following dependencies:
 
 digest
 itertools
 iterator
 RJSONIO
 
-RPM's for each of these dependencies are in this directory. As with RHIPE, using rmr requires installing to all nodes of a cluster.
+RPM's for each of these dependencies are in this directory. As with RHIPE,
+using rmr requires installing to all nodes of a cluster.
